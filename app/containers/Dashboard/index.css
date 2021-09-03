@@ -1,0 +1,117 @@
+:root {
+  dactic-color: '#5222d0';
+}
+
+#components-layout-demo-custom-trigger .trigger {
+  font-size: 18px;
+  line-height: 64px;
+  padding: 0 24px;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+#components-layout-demo-custom-trigger .trigger:hover {
+  color: #1890ff;
+}
+
+#components-layout-demo-custom-trigger .logo {
+  height: 32px;
+  background: rgba(255, 255, 255, 0.3);
+  margin: 16px;
+}
+
+.site-layout .site-layout-background {
+  background: #fff;
+}
+
+.ant-layout.whiteBackgroundLayout {
+  background: #fff;
+}
+
+.siderHeader {
+  background: #5c40a7;
+}
+
+.ant-btn.submitButton {
+  border-color: #5222d0;
+  background: #5222d0;
+}
+
+.ant-btn.solvedButton {
+  border-color: #1d7e95;
+  background: #1d7e95;
+}
+
+.ant-btn.viewResultButton {
+  border-color: #eb7714;
+  background: #eb7714;
+}
+
+.grow {
+  transition: all 0.2s ease-in-out;
+}
+.grow:hover {
+  transform: scale(1.1);
+}
+
+.messagecontainer {
+  border: 2px solid #dedede;
+  background-color: #f1f1f1;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px 0;
+}
+
+/* Darker chat container */
+.darker {
+  border-color: #ccc;
+  background-color: #ddd;
+}
+
+/* Clear floats */
+.messagecontainer::after {
+  content: '';
+  clear: both;
+  display: table;
+}
+
+/* Style images */
+.messagecontainer img {
+  float: left;
+  max-width: 60px;
+  width: 100%;
+  margin-right: 20px;
+  border-radius: 50%;
+}
+
+/* Style the right image */
+.messagecontainer img.right {
+  float: right;
+  margin-left: 20px;
+  margin-right: 0;
+}
+
+.messagecontainer p.right {
+  float: right;
+  margin-left: 20px;
+  margin-right: 0;
+}
+
+/* Style time text */
+.time-right {
+  float: right;
+  color: #aaa;
+}
+
+/* Style time text */
+.time-left {
+  float: left;
+  color: #999;
+}
+
+.richEditor {
+  border: #5222d0;
+  border: width 1px;
+  cursor: text;
+  min-height: 9em;
+}
